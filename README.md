@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Adaptris is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://adaptris.com/
+Adaptris provides integration solutions enabling enterprises to connect applications, data, and devices across cloud and on‑premises environments. Their platform offers a range of adapters, messaging, and workflow capabilities to simplify building robust integration pipelines, supporting APIs, event‑driven architectures, and legacy system connectivity. Founded to accelerate digital transformation, Adaptris serves financial services, healthcare, and technology sectors with scalable, secure integration services.
+
+**Areas:** Company · Integration · Messaging · Cloud
+
+## Adaptris on APIs.io
+
+Everything profiled for Adaptris is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adaptris/](https://apis.io/providers/adaptris/)** — or go straight to one of the APIs or properties below.
+
+### APIs (12)
+
+- [Adaptris /adapter API](https://apis.io/apis/adaptris/adaptris-adapter-api/) — The /adapter API from Adaptris — 12 operation(s) for /adapter.
+- [Adaptris /adapter/component Checker API](https://apis.io/apis/adaptris/adaptris-adapter-component-checker-api/) — The /adapter/component-checker API from Adaptris — 2 operation(s) for /adapter/component-checker.
+- [Adaptris /adapter/failed Messages API](https://apis.io/apis/adaptris/adaptris-adapter-failed-messages-api/) — The /adapter/failed-messages API from Adaptris — 12 operation(s) for /adapter/failed-messages.
+- [Adaptris /adapter/metrics API](https://apis.io/apis/adaptris/adaptris-adapter-metrics-api/) — The /adapter/metrics API from Adaptris — 4 operation(s) for /adapter/metrics.
+- [Adaptris /adapter/platform API](https://apis.io/apis/adaptris/adaptris-adapter-platform-api/) — The /adapter/platform API from Adaptris — 22 operation(s) for /adapter/platform.
+- [Adaptris /channel API](https://apis.io/apis/adaptris/adaptris-channel-api/) — The /channel API from Adaptris — 12 operation(s) for /channel.
+- [Adaptris /channel/failed Messages API](https://apis.io/apis/adaptris/adaptris-channel-failed-messages-api/) — The /channel/failed-messages API from Adaptris — 2 operation(s) for /channel/failed-messages.
+- [Adaptris /channel/metrics API](https://apis.io/apis/adaptris/adaptris-channel-metrics-api/) — The /channel/metrics API from Adaptris — 4 operation(s) for /channel/metrics.
+- [Adaptris Deprecated API](https://apis.io/apis/adaptris/adaptris-deprecated-api/) — The deprecated API from Adaptris — 21 operation(s) for deprecated.
+- [Adaptris /workflow API](https://apis.io/apis/adaptris/adaptris-workflow-api/) — The /workflow API from Adaptris — 12 operation(s) for /workflow.
+- [Adaptris /workflow/failed Messages API](https://apis.io/apis/adaptris/adaptris-workflow-failed-messages-api/) — The /workflow/failed-messages API from Adaptris — 2 operation(s) for /workflow/failed-messages.
+- [Adaptris /workflow/metrics API](https://apis.io/apis/adaptris/adaptris-workflow-metrics-api/) — The /workflow/metrics API from Adaptris — 10 operation(s) for /workflow/metrics.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [adaptris-mcp.yml](https://apis.io/servers/adaptris/adaptris-mcp-yml/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Adaptris Agentic Access](https://apis.io/agentic-access/adaptris/adaptris-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [AdapterJmxInterlokDetails](https://apis.io/schemas/adaptris/adaptris-adapter-jmx-interlok-details/)
+- [ComponentCheckWrapper](https://apis.io/schemas/adaptris/adaptris-component-check-wrapper/)
+- [StateWrapper](https://apis.io/schemas/adaptris/adaptris-state-wrapper/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Adaptris Context](https://apis.io/jsonld/adaptris/adaptris-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Adaptris Interlok Ui Overlay](https://apis.io/overlays/adaptris/adaptris-interlok-ui-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Adaptris API Rules](https://apis.io/rules/adaptris/adaptris-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adaptris Domain Security](https://apis.io/security/adaptris/adaptris-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://adaptris.com/)
+
+## API Evangelist rating
+
+**Kin Score 18.2** — emerging · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 48.5 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 1.8 |
+| Access clarity | 0.0 |
+
+**Agent readiness 35.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adaptris/](https://apis.io/providers/adaptris/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adaptris: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adaptris/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
